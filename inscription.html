@@ -1,15 +1,17 @@
 <html>
 <head>
     <title>Inscription</title>
+    <link rel="stylesheet" href="C:\Users\amine\OneDrive\Bureau\html\style.css">
+</head>
 </head>
 <body>
-    <header">
+    <header class="bouton">
         <div>
             <a href="acceuil.html"> Home </a>
             <a href="inscription.html"> Inscription </a>
     </div>
     <br/>
-    <hr />
+    <hr size="2" noshade/>
     <br />
     <img
     src="C:\Users\amine\OneDrive\Bureau\html\img0.jpg"
@@ -19,20 +21,29 @@
     />
     </header>
     <hr size"2" noshade>
-    <h4>Inscription</h4>
-    First Name <input type="text" minlength="3"/> <br>
-    Last Name <input type="text" minlength="3" /> <br>
-    Adress  <textarea></textarea> <br>
-    Date of Birth   <input type="Date"/> <br>
-    Phone number <input type="Tel" required/> <br>
-    Password*  <input type="Password" required/> <br>
-    Confirm Password*  <input type="Password" required/> <br> 
-    <input type="submit" />
-    <input type="reset" />
+    <h4 class="titles">Inscription</h4>
+    <form class="input">
+    First Name <input class="input" type="text" minlength="3"/> <br>
+    Last Name <input class="input" type="text" minlength="3" /> <br>
+    Adress  <textarea class="input"></textarea> <br>
+    Date of Birth   <input class="input" type="Date"/> <br>
+    Phone number <input class="input" type="Tel" required/> <br>
+    Password*  <input class="input" type="Password" required/> <br>
+    Confirm Password*  <input class="input" type="Password" required/> <br>
+    </form>
+    <br> 
+    <input class="submit" type="submit" />
+    <input class="submit" type="reset" />
     <hr size"2" noshade>
-        <footer>
-    <h4>Contact us</h4>
-        email : mygym@gomycode.tn
-</footer>
+    <footer>
+        <table width="20%" align="center">
+            <tr>
+                <td><a href="mailto:email:medamine.benamara@esprit.tn"><img src="C:\Users\amine\OneDrive\Bureau\html\contact me.png" height="50" width="50"></a></td>
+                <td><a href="https://www.facebook.com/amine.amara.14/"><img src="C:\Users\amine\OneDrive\Bureau\html\facebook.png" height="50" width="50"></a></td>
+                <td><a href="tel:+21653610237"><img src="C:\Users\amine\OneDrive\Bureau\html\phone.png" height="50" width="50"></td>
+            </tr>
+        </table>
+      </footer>
+      
 </body>
 </html>
